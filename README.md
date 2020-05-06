@@ -9,7 +9,7 @@ Chrome：81.0.4044.113（64位正式版本）
 
 Visual Studio Code：1.44.2
 
-Vue.js：2.6.11
+Vue：2.6.11
 
 Element：2.13.1
 
