@@ -55,7 +55,12 @@ export default {
       this.axios
         .post(serverUrl + "/api/food/food_list", qs.stringify(this.form))
         .then(res => {
-          this.resdata = res.data.data[0];
+          if (res.data.code === 0) {
+            alert(res.data.data[0]);
+          }
+          if (res.data.code === 1) {
+            this.resdata = res.data.data[0];
+          }
         });
     },
 
